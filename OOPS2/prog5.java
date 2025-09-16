@@ -40,10 +40,10 @@ static class CarRental {
     }
 
     void displayRental() {
-        System.out.println("Customer= " + customerName +
-                           ", Car Model= " + carModel +
-                           ", Days= " + rentalDays +
-                           ", Total Cost=" + calculateCost());
+        System.out.println(customerName +
+                           ","+ carModel 
+                           "," + rentalDays
+                           ", " + calculateCost());
     }
 
     
